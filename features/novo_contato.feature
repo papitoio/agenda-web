@@ -18,3 +18,10 @@ Cenario: Contato duplicado
     Mas eu já cadastrei este contato
     Quando cadastro este contato na minha agenda
     Entao devo ver a mensagem "Whats já está em uso"
+
+@nome_requerido
+Cenario: Nome deve se obrigatório
+
+    Dado que "" e "1199999999" e o meu novo contato
+    Quando cadastro este contato na minha agenda
+    Entao devo ver a mensagem "Ops. O nome do contato deve ser preenchido"
