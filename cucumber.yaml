@@ -1,0 +1,6 @@
+---
+default: -p html_report
+ci: -p json_report -p junit
+html_report: --format pretty --format html --out=log/features.html
+json_report: --format pretty --format json --out=log/features.json
+junit: --format junit --out log/junit
