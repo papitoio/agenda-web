@@ -17,4 +17,4 @@ Cenario: Contato duplicado
     Dado que "Papito" e "11946800923" e o meu novo contato
     Mas eu já cadastrei este contato
     Quando cadastro este contato na minha agenda
-    Entao devo ver a mensagem "Whats já está em uso."
+    Entao devo ver a mensagem "Whats já está em uso"
